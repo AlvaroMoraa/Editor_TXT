@@ -49,4 +49,4 @@ EditorTXT/
 ```
 ## 📌 Observações
 
-Este projeto tem fins educacionais, mas pode ser usado como ferramenta prática no dia a dia.
+• Este projeto tem fins educacionais, mas pode ser usado como ferramenta prática no dia a dia.
