@@ -36,13 +36,16 @@ Um editor de texto leve e funcional criado com **Windows Forms** em **C# (.NET 6
 
 ## 🛠️ Estrutura do Projeto
 
-    EditorTXT/
+```plaintext
+EditorTXT/
 ├── Properties/
 │   ├── Resources.resx
 │   └── Resources.Designer.cs
 ├── Form1.cs
-|   └── Form1.Designer.cs
+│   └── Form1.Designer.cs
 ├── Program.cs
+├── notes.ico
+└── EditorTXT.csproj
 
 ## 📌 Observações
 
