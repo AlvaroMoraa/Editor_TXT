@@ -70,9 +70,6 @@ namespace EditorTXT
             mExibirZoomReduzir = new System.Windows.Forms.ToolStripMenuItem();
             mExibirZoomRestaurar = new System.Windows.Forms.ToolStripMenuItem();
             mExibirBarraStatus = new System.Windows.Forms.ToolStripMenuItem();
-            mAjuda = new System.Windows.Forms.ToolStripMenuItem();
-            mAjudaExibirAjuda = new System.Windows.Forms.ToolStripMenuItem();
-            mAjudaSobre = new System.Windows.Forms.ToolStripMenuItem();
             statusBar = new System.Windows.Forms.StatusStrip();
             statusBarLabel = new System.Windows.Forms.ToolStripStatusLabel();
             toolStrip1 = new System.Windows.Forms.ToolStrip();
@@ -95,7 +92,7 @@ namespace EditorTXT
             // menuBar
             // 
             menuBar.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            menuBar.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { mArquivo, mEditar, mFormatar, mExibir, mAjuda });
+            menuBar.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { mArquivo, mEditar, mFormatar, mExibir });
             menuBar.Location = new Point(0, 0);
             menuBar.Name = "menuBar";
             menuBar.Size = new Size(784, 29);
@@ -313,28 +310,6 @@ namespace EditorTXT
             mExibirBarraStatus.Text = "Barra de status";
             mExibirBarraStatus.Click += mExibirBarraStatus_Click;
             // 
-            // mAjuda
-            // 
-            mAjuda.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { mAjudaExibirAjuda, mAjudaSobre });
-            mAjuda.Name = "mAjuda";
-            mAjuda.Size = new Size(64, 25);
-            mAjuda.Text = "Ajuda";
-            // 
-            // mAjudaExibirAjuda
-            // 
-            mAjudaExibirAjuda.Name = "mAjudaExibirAjuda";
-            mAjudaExibirAjuda.ShortcutKeys = System.Windows.Forms.Keys.F1;
-            mAjudaExibirAjuda.Size = new Size(218, 26);
-            mAjudaExibirAjuda.Text = "Exibir Ajuda";
-            mAjudaExibirAjuda.Click += mAjudaExibirAjuda_Click;
-            // 
-            // mAjudaSobre
-            // 
-            mAjudaSobre.Name = "mAjudaSobre";
-            mAjudaSobre.Size = new Size(218, 26);
-            mAjudaSobre.Text = "Sobre o Editor TXT";
-            mAjudaSobre.Click += mAjudaSobre_Click;
-            // 
             // statusBar
             // 
             statusBar.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { statusBarLabel });
@@ -362,7 +337,6 @@ namespace EditorTXT
             // toolBarNovo
             // 
             toolBarNovo.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            toolBarNovo.Image = ByteArrayToImage(global::EditorTXT.Properties.Resources.new_file);
             toolBarNovo.ImageTransparentColor = Color.Magenta;
             toolBarNovo.Name = "toolBarNovo";
             toolBarNovo.Size = new Size(23, 25);
@@ -372,7 +346,6 @@ namespace EditorTXT
             // toolBarAbrir
             // 
             toolBarAbrir.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            toolBarAbrir.Image = ByteArrayToImage(global::EditorTXT.Properties.Resources.open);
             toolBarAbrir.ImageTransparentColor = Color.Magenta;
             toolBarAbrir.Name = "toolBarAbrir";
             toolBarAbrir.Size = new Size(23, 25);
@@ -382,7 +355,6 @@ namespace EditorTXT
             // toolBarSalvar
             // 
             toolBarSalvar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            toolBarSalvar.Image = ByteArrayToImage(global::EditorTXT.Properties.Resources.save);
             toolBarSalvar.ImageTransparentColor = Color.Magenta;
             toolBarSalvar.Name = "toolBarSalvar";
             toolBarSalvar.Size = new Size(23, 25);
@@ -414,7 +386,6 @@ namespace EditorTXT
             // toolBarZoom
             // 
             toolBarZoom.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            toolBarZoom.Image = ByteArrayToImage(global::EditorTXT.Properties.Resources.zoom);
             toolBarZoom.ImageTransparentColor = Color.Magenta;
             toolBarZoom.Name = "toolBarZoom";
             toolBarZoom.Size = new Size(23, 25);
@@ -491,7 +462,6 @@ namespace EditorTXT
         private System.Windows.Forms.ToolStripMenuItem mEditar;
         private System.Windows.Forms.ToolStripMenuItem mFormatar;
         private System.Windows.Forms.ToolStripMenuItem mExibir;
-        private System.Windows.Forms.ToolStripMenuItem mAjuda;
         private System.Windows.Forms.ToolStripMenuItem mArquivoNovo;
         private System.Windows.Forms.ToolStripMenuItem mArquivoNovaJanela;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
@@ -507,8 +477,6 @@ namespace EditorTXT
         private System.Windows.Forms.ToolStripMenuItem mExibirZoomReduzir;
         private System.Windows.Forms.ToolStripMenuItem mExibirZoomRestaurar;
         private System.Windows.Forms.ToolStripMenuItem mExibirBarraStatus;
-        private System.Windows.Forms.ToolStripMenuItem mAjudaExibirAjuda;
-        private System.Windows.Forms.ToolStripMenuItem mAjudaSobre;
         private System.Windows.Forms.ToolStripMenuItem mEditarDesfazer;
         private System.Windows.Forms.ToolStripMenuItem mEditarRefazer;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;

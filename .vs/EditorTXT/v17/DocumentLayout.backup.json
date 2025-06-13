@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\alvaa\\Desktop\\Editor_TXT-main\\Editor_TXT-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73CDED1C-49C8-4743-B1B5-EA9499A8C367}|EditorTXT.csproj|c:\\users\\alvaa\\desktop\\editor_txt-main\\editor_txt-main\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73CDED1C-49C8-4743-B1B5-EA9499A8C367}|EditorTXT.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73CDED1C-49C8-4743-B1B5-EA9499A8C367}|EditorTXT.csproj|c:\\users\\alvaa\\desktop\\editor_txt-main\\editor_txt-main\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73CDED1C-49C8-4743-B1B5-EA9499A8C367}|EditorTXT.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73CDED1C-49C8-4743-B1B5-EA9499A8C367}|EditorTXT.csproj|c:\\users\\alvaa\\desktop\\editor_txt-main\\editor_txt-main\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{73CDED1C-49C8-4743-B1B5-EA9499A8C367}|EditorTXT.csproj|solutionrelative:properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+      "AbsoluteMoniker": "D:0:0:{73CDED1C-49C8-4743-B1B5-EA9499A8C367}|EditorTXT.csproj|c:\\users\\alvaa\\desktop\\editor_txt-main\\editor_txt-main\\gerenciador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73CDED1C-49C8-4743-B1B5-EA9499A8C367}|EditorTXT.csproj|solutionrelative:gerenciador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73CDED1C-49C8-4743-B1B5-EA9499A8C367}|EditorTXT.csproj|c:\\users\\alvaa\\desktop\\editor_txt-main\\editor_txt-main\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{73CDED1C-49C8-4743-B1B5-EA9499A8C367}|EditorTXT.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{73CDED1C-49C8-4743-B1B5-EA9499A8C367}|EditorTXT.csproj|c:\\users\\alvaa\\desktop\\editor_txt-main\\editor_txt-main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73CDED1C-49C8-4743-B1B5-EA9499A8C367}|EditorTXT.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73CDED1C-49C8-4743-B1B5-EA9499A8C367}|EditorTXT.csproj|c:\\users\\alvaa\\desktop\\editor_txt-main\\editor_txt-main\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{73CDED1C-49C8-4743-B1B5-EA9499A8C367}|EditorTXT.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,40 +50,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\alvaa\\Desktop\\Editor_TXT-main\\Editor_TXT-main\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\alvaa\\Desktop\\Editor_TXT-main\\Editor_TXT-main\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\alvaa\\Desktop\\Editor_TXT-main\\Editor_TXT-main\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAhwCUBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T19:59:21.166Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-13T20:33:43.929Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Resources.resx",
-              "DocumentMoniker": "C:\\Users\\alvaa\\Desktop\\Editor_TXT-main\\Editor_TXT-main\\Properties\\Resources.resx",
-              "RelativeDocumentMoniker": "Properties\\Resources.resx",
-              "ToolTip": "C:\\Users\\alvaa\\Desktop\\Editor_TXT-main\\Editor_TXT-main\\Properties\\Resources.resx",
-              "RelativeToolTip": "Properties\\Resources.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-06-13T19:56:39.161Z",
+              "Title": "Gerenciador.cs",
+              "DocumentMoniker": "C:\\Users\\alvaa\\Desktop\\Editor_TXT-main\\Editor_TXT-main\\Gerenciador.cs",
+              "RelativeDocumentMoniker": "Gerenciador.cs",
+              "ToolTip": "C:\\Users\\alvaa\\Desktop\\Editor_TXT-main\\Editor_TXT-main\\Gerenciador.cs",
+              "RelativeToolTip": "Gerenciador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:22:47.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\alvaa\\Desktop\\Editor_TXT-main\\Editor_TXT-main\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\alvaa\\Desktop\\Editor_TXT-main\\Editor_TXT-main\\Form1.Designer.cs",
-              "RelativeToolTip": "Form1.Designer.cs",
-              "ViewState": "AgIAAIUBAAAAAAAAAAArwKABAABcAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alvaa\\Desktop\\Editor_TXT-main\\Editor_TXT-main\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\alvaa\\Desktop\\Editor_TXT-main\\Editor_TXT-main\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T19:55:46.333Z",
+              "WhenOpened": "2025-06-13T20:22:41.316Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\alvaa\\Desktop\\Editor_TXT-main\\Editor_TXT-main\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\alvaa\\Desktop\\Editor_TXT-main\\Editor_TXT-main\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-06-13T20:22:39.969Z"
             }
           ]
         }
