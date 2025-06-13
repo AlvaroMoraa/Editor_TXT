@@ -46,7 +46,7 @@ EditorTXT/
 ├── Program.cs
 ├── notes.ico
 └── EditorTXT.csproj
-
+```
 ## 📌 Observações
 
 Este projeto tem fins educacionais, mas pode ser usado como ferramenta prática no dia a dia.
